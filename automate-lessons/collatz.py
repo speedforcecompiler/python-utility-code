@@ -3,7 +3,7 @@ while choice == 1:
     try:
         # global choice
         number = int(input("Enter a number : "))
-        while number != 1:
+        while number > 1:
             if number%2 == 0:
                 number = number/2
             else:
